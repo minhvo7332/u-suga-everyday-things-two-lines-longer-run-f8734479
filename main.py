@@ -60,7 +60,6 @@ def main() -> None:
         f.write(ENTRY)
     # The grader collects outputs as another user: leave the file world-readable.
     os.chmod(path, 0o644)
-    os.chmod(out_dir, 0o755)
 
 
 if __name__ == "__main__":
